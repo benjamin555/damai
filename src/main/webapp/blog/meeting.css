@@ -1,0 +1,61 @@
+.meeting {
+    width: 848px;
+}
+.flow-bg {
+    background: url("../../images/meeting/meeting-bg.png") repeat;
+    width: 848px;
+    height: 48px;
+    position: relative;
+}
+.flow-bg .common-icon {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 30px;
+
+}
+.flow-bg .bg-icon {
+    background: url("../../images/meeting/icon.png") -107px -8px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="../../images/meeting/icon.png");
+    /*_background: none;*/
+}
+.flow-bg .survey-icon {
+    background: url("../../images/meeting/icon.png") -71px -7px;
+}
+.flow-bg .agenda-icon {
+    background: url("../../images/meeting/icon.png") -41px -8px;
+}
+.flow-bg .guide-icon {
+    background: url("../../images/meeting/icon.png") -10px -10px;
+}
+.meeting-agenda {
+    background: url("../../images/meeting/meeting-agenda.png");
+    width: 686px;
+    height: 48px;
+    margin-left: 5px;
+    position: relative;
+}
+.meeting-agenda .agenda-font {
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+}
+.meeting-agenda .agenda-1 {
+    left: 70px;
+}
+.meeting-agenda .agenda-2 {
+    left: 202px;
+}
+.meeting-agenda .agenda-3 {
+    left: 485px;
+}
+.flow-bg .title {
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #ffffff;
+    position: absolute;
+    left: 60px;
+}

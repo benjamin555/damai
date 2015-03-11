@@ -1,0 +1,218 @@
+/*点击按钮弹出的对话框样式开始*/
+.popup, .cover, .loading {
+    position: fixed;
+}
+
+.popup, .loading {
+    z-index: 1001;
+}
+
+.popup .d-banner {
+    cursor: all-scroll;
+}
+
+.popup .d-content {
+    font-size: 14px;
+}
+
+.popup {
+    background-color: #FDFDFD;
+    border-radius: 3px;
+    left: 50%;
+    top: 50%;
+    margin-top: -135px;
+}
+
+.loading {
+    background: url("../../images/dialog/loading.gif") no-repeat;
+    width: 128px;
+    height: 128px;
+    left: 50%;
+    top: 50%;
+    margin-left: -64px;
+    margin-top: -64px;
+}
+
+.dialog {
+    width: 716px;
+    margin-left: -500px;
+    border-radius: 3px;
+    background-color: #FDFDFD;
+}
+
+.confirm {
+    width: 422px;
+    margin-left: -211px;
+}
+
+.alert.popup {
+    width: 356px;
+    margin-left: -178px;
+}
+
+.alert.popup .d-content {
+    text-align: center;
+    font-size: 21px;
+    padding: 20px;
+}
+
+.alert.popup .d-footer > div {
+    width: 91px;
+    margin-bottom: 20px;
+}
+
+.alert .d-footer .sure-btn{
+    background:url("../../images/dialog/dialog.png") no-repeat -5px -7px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    width:91px;
+    height: 33px;
+    margin-left: 0;
+}
+
+.popup .d-banner {
+    border-bottom: 1px solid #DFDFDF;
+    height: 39px;
+    position: relative;
+    background:url("../../images/dialog/gradient_blue.jpg") repeat;
+}
+
+.confirm .d-banner {
+    background-color: #3499DC;
+    height: 39px;
+    color:#ffffff;
+}
+
+.popup .d-banner h2 {
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 15px;
+    color: #ffffff;
+    line-height: 40px;
+    height: 40px;
+    margin: 0;
+}
+
+.confirm .d-banner h2 {
+    font-size: 16px;
+    line-height: 40px;
+    height: 40px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.popup .close-btn {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    background-color: rgb(250, 104, 104);
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    right: -47px;
+    top: 11px;
+}
+
+.popup .close-btn:hover {
+    background-color: #fd8e8e;
+}
+
+.confirm .d-content {
+    font-size: 19px;
+    text-align: center;
+    padding: 33px 0;
+    height: 57px;
+    line-height: 57px;
+}
+
+.dialog .d-footer > div {
+    width: 250px;
+}
+.d-footer {
+    height: 60px;
+    border-top: 1px solid #DFDFDF;
+    background-color: #f8f8f8;
+}
+.d-footer a {
+    width: 91px;
+    height: 33px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 31px;
+    margin-top: 13px;
+    margin-left: 22px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.d-footer .sure-btn {
+    background:url("../../images/dialog/dialog.png") no-repeat -5px -7px;
+}
+.d-footer .cancel-btn {
+    background:url("../../images/dialog/dialog.png") no-repeat -100px -7px;
+}
+
+.dialog .d-footer .sure-btn.disabled {
+    background-color: #9E9E9E;
+}
+
+
+.popup .d-footer .btn span {
+    background-position: -13px -116px;
+    width: 27px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 16px;
+    position: relative;
+    top: 5px;
+}
+
+.confirm .d-footer .cancel-btn span {
+    background-position: -121px -116px;
+}
+
+.dialog .d-footer > div > p {
+    font-size: 15px;
+    color: #6B6B6B;
+    width: 265px;
+}
+
+.confirm .d-footer > div {
+    width: 250px;
+    height: 60px;
+}
+
+.dialog .d-footer input {
+    margin-right: 11px;
+}
+
+.popup a.help {
+    width: 20px;
+    height: 20px;
+    background-position: -323px -194px;
+    display: inline-block;
+    margin: 0 13px;
+    position: relative;
+}
+
+.cover {
+    /*position: fixed; */
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+/*点击按钮弹出的对话框样式结束*/
+

@@ -1,0 +1,189 @@
+.about-banner {
+    background: url("../images/about/about-banner.jpg") no-repeat center #22558A;
+    height: 156px;
+}
+.blue {
+    color: #0A427D;
+    font-weight: bold;
+}
+.about-icon {
+    background-image: url("../images/talent/about/about_icon.png");
+}
+#about {
+    width: 1100px;
+    margin-top: 15px;
+}
+#about .about-left {
+    float: left;
+    width: 202px;
+}
+#about .about-left .about-title {
+    background-position: -42px -279px;
+    width: 177px;
+    height: 52px;
+    line-height: 52px;
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 25px;
+}
+#about .about-left .about-menu {
+    width: 202px;
+    background-color: #F6F6F6;
+    padding: 16px 0;
+}
+#about .about-left .about-menu ul li {
+    position: relative;
+    width: 202px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 27px;
+}
+#about .about-left .about-menu ul li a {
+    color: #696969;
+    font-size: 16px;
+    width: 202px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    position: relative;
+}
+#about .about-left .about-menu ul li a:after {
+    content: ">";
+    position: absolute;
+    right: 15px;
+    font-size: 20px;
+}
+#about .about-left .about-menu ul li.selected {
+    background-color: #0A427D;
+    border-left: 5px solid #F1C001;
+    width: 197px;
+    text-indent: 27px;
+}
+#about .about-left .about-menu ul li.selected a {
+    color: #ffffff;
+    width: 197px;
+}
+#about .about-left .about-menu .gt-icon {
+    position: absolute;
+    right: 16px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+#about .about-left .we-chat-id {
+    width: 202px;
+    background-color: #F6F6F6;
+    margin-top: 20px;
+}
+#about .about-left .we-chat-id .two-dimension-code {
+    background-position: -41px -80px;
+    width: 172px;
+    height: 172px;
+    margin: 15px 0 0 15px;
+    display: inline-block;
+}
+#about .about-left .we-chat-id .subscribe {
+    width: 202px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #696969;
+    font-size: 16px;
+}
+#about .about-right {
+    width: 880px;
+    float: right;
+}
+#about .about-right .position {
+    width: 880px;
+    height: 52px;
+    line-height: 52px;
+    text-align: right;
+    border-bottom: 1px #d5d5d5 solid;
+}
+#about .about-right .position .breadcrumbs a {
+    color: #989898;
+}
+#about .about-right .position .breadcrumbs a:hover {
+    text-decoration: underline;
+    color: #0A427D;
+}
+#about .about-right .position .breadcrumbs a:last-child {
+    font-weight: bold;
+    color: #0A427D;
+}
+#about .about-right .position .breadcrumbs .separator {
+    width: 24px;
+    text-align: center;
+    display: inline-block;
+    color: #989898;
+}
+#about .about-right .about-content {
+    width: 880px;
+}
+#about .about-right .about-content .block-1 {
+    border-bottom: 1px dashed #535353;
+    padding: 10px 0 20px 0;
+}
+#about .about-right .about-content .block-1-left {
+    float: left;
+    width: 570px;
+}
+#about .about-right .about-content .block-1-left h2 {
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #2E5588;
+    font-weight: normal;
+}
+#about .about-right .about-content .block-1-left p {
+    color: #535353;
+    text-indent: 2em;
+    line-height: 36px;
+}
+#about .about-right .about-content .block-1-right {
+    float: right;
+    background-position: -36px -379px;
+    width: 223px;
+    height: 204px;
+    margin-top: 205px;
+    margin-right: 20px;
+}
+#about .about-right .about-content .block-2 {
+    padding: 20px 0 20px 0;
+}
+#about .about-right .about-content .block-2 ul li {
+    margin: 20px 0;
+}
+#about .about-right .about-content .block-2 .enterprise-culture {
+    width: 107px;
+    height: 33px;
+    line-height: 32px;
+    color: #fdfdfd;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+#about .about-right .about-content .block-2 .culture-1 {
+    background-position: -295px -28px;
+}
+#about .about-right .about-content .block-2 .culture-2 {
+    background-position: -295px -80px;
+}
+#about .about-right .about-content .block-2 .culture-3 {
+    background-position: -295px -132px;
+}
+#about .about-right .about-content .block-2 .culture-4 {
+    background-position: -295px -184px;
+}
+#about .about-right .about-content .block-2 .culture-5 {
+    background-position: -295px -236px;
+}
+#about .about-right .about-content .block-2 .culture-6 {
+    background-position: -295px -288px;
+}
+#about .about-right .about-content .block-2 .introduce {
+    color: #535353;
+    width: 744px;
+    float: right;
+    line-height: 28px;
+}

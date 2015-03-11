@@ -1,0 +1,387 @@
+* {
+	margin: 0px; padding: 0px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 14px;
+}
+.clear {
+	clear: both;
+}
+.center {
+	margin: 0px auto; overflow: hidden;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:focus {
+	-moz-outline-style: none;
+}
+img {
+	border: currentColor;
+}
+#header {
+	width: 100%; z-index: 999; box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.3), 0px 0px 6px 2px rgba(0,0,0,0.15); background-color: rgb(253, 253, 253);
+}
+#header .center {
+	width: 1100px; height: 75px;
+}
+#header div.left {
+	height: 75px; float: left;
+}
+#header div.left img {
+	margin-top: 17px;
+}
+#header div.right {
+	float: right;
+}
+#header div.right a {
+	border: currentColor; width: 94px; height: 75px; text-align: center; color: rgb(57, 57, 57); line-height: 75px; font-size: 17px; text-decoration: none; float: left; display: block; cursor: pointer;
+}
+#header div.right a.selected {
+	background: url("../images/layout.png") no-repeat -25px -36px; color: white;
+}
+#footer {
+	width: 100%; height: 196px;
+}
+#footer .footer-content {
+	width: 1100px; padding-top: 35px;
+}
+.footer-content td:last-child div {
+	width: 40px; height: 40px; margin-left: 8px; float: right;
+}
+.footer-content .sina-weibo {
+	background: url("../images/footer_share.png") no-repeat 0px 0px;
+}
+.footer-content .qq-weibo {
+	background: url("../images/footer_share.png") no-repeat -48px 0px;
+}
+.footer-content .zone {
+	background: url("../images/footer_share.png") no-repeat -96px 0px;
+}
+.footer-content .weixi {
+	background: url("../images/footer_share.png") no-repeat -144px 0px;
+}
+.footer-content .weixi-zone {
+	background: url("../images/footer_share.png") no-repeat -192px 0px;
+}
+.dm-icon {
+	background-image: url("../images/damai_icon.png");
+}
+#tab-title {
+	width: 1100px; text-align: center; margin-top: 20px;
+}
+#tab-title label {
+	color: rgb(13, 65, 124); font-size: 20px;
+}
+#tab-title .left-line {
+	width: 484px; height: 38px; border-bottom-color: rgb(205, 205, 205); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.right-line {
+	width: 484px; height: 38px; border-bottom-color: rgb(205, 205, 205); border-bottom-width: 2px; border-bottom-style: solid;
+}
+#tab-title div.title {
+	padding: 10px; width: 112px; color: rgb(157, 157, 157); margin-bottom: 25px; border-bottom-color: rgb(12, 66, 124); border-bottom-width: 2px; border-bottom-style: solid; display: inline-block;
+}
+#footer .link {
+	background-color: rgb(17, 53, 91);
+}
+#footer .link a:hover {
+	text-decoration: underline;
+}
+#footer .link .container {
+	width: 1103px; padding-top: 20px; padding-bottom: 20px; padding-left: 7px;
+}
+#footer .container a {
+	color: rgb(255, 255, 255); padding-right: 14px; font-size: 12px; display: inline-block;
+}
+#footer .title {
+	color: rgb(255, 255, 255); padding-bottom: 15px;
+}
+.address-box {
+	background: rgb(246, 246, 246); padding: 20px 0px; width: 100%; margin-top: 40px;
+}
+.containr {
+	margin: 0px auto; width: 1100px;
+}
+.center-address {
+	padding: 10px 0px; overflow: hidden;
+}
+.message-qq {
+	width: 50.5%; overflow: hidden; border-right-color: rgb(213, 213, 213); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.message-qq .saosao {
+	width: 172px; padding-top: 15px; float: left; display: inline;
+}
+.message-qq .saosao .dingyuehao {
+	font-size: 16px;
+}
+.message-qqul {
+	padding-left: 45px; float: left; display: inline;
+}
+.message-qqul li {
+	background: url("../images/webicon.png") no-repeat -12px -42px; width: 292px; height: 112px; position: relative;
+}
+.message-qqul li p {
+	padding: 24px 0px 0px 24px;
+}
+.message-qqul li p a {
+	background: url("../images/webicon.png") no-repeat -470px -36px; color: rgb(254, 58, 58); padding-left: 24px; margin-right: 20px;
+}
+.message-qqul li p .message-ww-icon {
+	background: url("../images/webicon.png") no-repeat -470px -63px; padding-left: 24px; margin-right: 0px;
+}
+.rexian-txt {
+	left: 25px; top: -4px; color: rgb(67, 67, 67); font-size: 16px; position: absolute;
+}
+.message-num {
+	color: rgb(10, 66, 125); font-size: 26px; font-weight: bold;
+}
+.message-qqul li .message-icon-p {
+	padding-top: 8px;
+}
+.message-address {
+	width: 49%; float: left;
+}
+.message-address p {
+	padding: 1px 0px 1px 50px; color: rgb(152, 152, 152); line-height: 22px; font-size: 14px;
+}
+.message-address .retract {
+	text-indent: 6em;
+}
+.footer-help-div {
+	color: rgb(255, 255, 255); font-size: 14px; background-color: rgb(33, 84, 137);
+}
+.footer-help-div a {
+	color: rgb(255, 255, 255); font-size: 14px;
+}
+.footer-help-cont {
+	margin: 0px auto; padding: 20px 0px; width: 100%; overflow: hidden; position: relative;
+}
+.footer-help-cont dl {
+	width: 140px; float: left;
+}
+.footer-help-cont dl dt {
+	padding: 0px 0px 15px; font-size: 16px;
+}
+.footer-help-cont dl dd {
+	padding: 2px 0px;
+}
+.footer-help-cont dl dd a {
+	font-size: 12px;
+}
+.footer-help-cont a:hover {
+	text-decoration: underline;
+}
+.footer-help-cont .exdl {
+	width: 220px;
+}
+.footer-help-cont .exdl dd {
+	width: 100px; float: left; display: inline;
+}
+.footer-share {
+	top: 20px; width: 325px; right: 0px; float: right; position: absolute;
+}
+.footer-share p {
+	margin: 0px auto; padding: 5px 0px; text-align: right; overflow: hidden; font-size: 12px;
+}
+.footer-share p a {
+	background: url("../images/webicon.png") no-repeat -12px -160px; width: 42px; height: 43px; margin-left: 5px; float: right; display: block;
+}
+.footer-share-iconp {
+	height: 90px;
+}
+.footer-share .weibo {
+	background-position: -14px -160px;
+}
+.footer-share .tweibo {
+	background-position: -66px -160px;
+}
+.footer-share .sinablog {
+	background: url("../images/sina_blog.png") no-repeat 0px; width: 40px; _background: url(../images/share_icon.jpg) -4px -5px no-repeat;
+}
+.footer-share .weixin {
+	background-position: -166px -160px;
+}
+.footer-share .tao {
+	background: url("../images/tao_logo.png") no-repeat -2px -4px; _background: url(../images/share_icon.jpg) -100px -5px no-repeat;
+}
+body {
+	position: relative; min-width: 1100px;
+}
+.floatConsult {
+	background: url("../images/zixunicon.png") no-repeat -62px -23px; left: 50%; top: 50%; width: 513px; height: 302px; display: none; position: fixed; z-index: 999; _width: 505px; _height: 291px; _position: absolute;
+}
+.floatConsult .close-btn {
+	top: 7px; width: 28px; height: 28px; text-align: center; right: 8px; color: rgb(246, 206, 44); line-height: 25px; font-size: 18px; position: absolute; cursor: pointer;
+}
+.floatConsult .close-btn:hover {
+	color: rgb(253, 253, 253); background-color: rgb(212, 64, 39);
+}
+.zixunCont {
+	margin: 0px auto; padding: 45px 45px 27px; width: 423px; height: 121px; overflow: hidden;
+}
+.saosao {
+	width: 92px; float: left;
+}
+.zixunClick {
+	width: 330px; float: left;
+}
+.zixunClick a {
+	height: 47px; text-align: center; float: left; display: block; _height: 40px;
+}
+.wwC {
+	background: url("../images/zixunicon.png") no-repeat -62px -423px; margin: 0px 0px 18px 30px; width: 134px; _width: 128px; _margin: 0 0 18px 20px;
+}
+.wwC:hover {
+	color: rgb(216, 70, 32);
+}
+.qqC {
+	background: url("../images/zixunicon.png") no-repeat -247px -423px; width: 134px; margin-left: 30px; _width: 128px; _margin-left: 20px;
+}
+.qqC:hover {
+	color: rgb(0, 91, 162);
+}
+.wwLC {
+	background: url("../images/zixunicon.png") no-repeat -3px -416px; width: 148px; color: rgb(51, 51, 51);
+}
+.wwLC:hover {
+	color: rgb(51, 51, 51);
+}
+.qqLC {
+	background: url("../images/zixunicon.png") no-repeat -188px -420px; width: 148px; color: rgb(51, 51, 51);
+}
+.qqLC:hover {
+	color: rgb(51, 51, 51);
+}
+.dingyuehao {
+	padding: 5px 0px; text-align: center; color: rgb(52, 52, 52); font-size: 12px; display: block;
+}
+.waitBox {
+	height: 107px; position: relative;
+}
+.waitBox .hot-line {
+	background: url("../images/zixunicon.png") no-repeat -65px -548px; left: 65px; top: 20px; width: 60px; height: 58px; position: absolute;
+}
+.companyNum1 {
+	padding: 20px 0px; left: 150px; top: 0px; color: rgb(10, 66, 125); font-size: 28px; font-weight: bold; position: absolute;
+}
+.companyNum1 h1 {
+	font-size: 16px; font-weight: normal;
+}
+.waitInput {
+	background: url("../images/zixunicon.png") no-repeat -62px -385px; border: currentColor; top: 50px; width: 78px; height: 32px; right: 45px; position: absolute; cursor: pointer; _width: 72px; _height: 24px;
+}
+.waitInput:focus {
+	
+}
+.online {
+	width: 140px; height: 42px; text-align: center; color: rgb(253, 253, 253); line-height: 42px; font-size: 16px; font-weight: bold;
+}
+.floatRight {
+	background: url("../images/zixunicon.png") no-repeat -429px -392px; top: 120px; width: 145px; height: 360px; right: 0px; float: right; display: none; position: fixed; z-index: 999; _height: 354px; _position: absolute;
+}
+.floatRightIconA {
+	margin-top: 18px; margin-left: 15px;
+}
+.floatRightIconA a {
+	text-align: center; margin-bottom: 18px; display: block; _margin-bottom: 26px;
+}
+.zixunClick a:hover {
+	filter: Alpha(opacity=80); opacity: 0.8;
+}
+.waitInput:hover {
+	filter: Alpha(opacity=80); opacity: 0.8;
+}
+.floatRightIconA a:hover {
+	filter: Alpha(opacity=80); opacity: 0.8;
+}
+.wwLeftC {
+	background: url("../images/zixunicon.png") no-repeat -605px -449px; width: 111px; height: 40px; _width: 104px; _height: 32px;
+}
+.wwLeftC:hover {
+	color: rgb(216, 70, 32);
+}
+.qqLeftC {
+	background: url("../images/zixunicon.png") no-repeat -606px -563px; width: 112px; height: 40px; _width: 104px; _height: 32px;
+}
+.qqLeftC:hover {
+	color: rgb(0, 91, 162);
+}
+.wwLeftLC {
+	background: url("../images/zixunicon.png") no-repeat -582px -499px; width: 119px; color: rgb(51, 51, 51);
+}
+.wwLeftLC:hover {
+	background: url("../images/zixunicon.png") no-repeat -582px -499px; width: 119px; color: rgb(51, 51, 51);
+}
+.qqLeftLC {
+	background: url("../images/zixunicon.png") no-repeat -582px -626px; width: 119px; color: rgb(51, 51, 51);
+}
+.qqLeftLC:hover {
+	color: rgb(51, 51, 51);
+}
+.companyNum2Div {
+	margin: 0px auto; padding: 0px 12px; line-height: 22px;
+}
+.companyNum2Div p {
+	color: rgb(255, 246, 0); font-size: 12px;
+}
+.companyNum2Div .companyNum2 {
+	color: rgb(255, 246, 0); font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; font-weight: bold;
+}
+#header {
+	top: 0px; position: fixed; z-index: 998; _position: absolute;
+}
+#content {
+	padding-top: 75px;
+}
+#back-to-top {
+	left: 50%; width: 50px; height: 50px; bottom: 80px; margin-left: 600px; display: none; position: fixed; _position: absolute;
+}
+#back-to-top .back-top {
+	background: url("../images/news/backtop_icon.png") no-repeat -27px -24px; width: 50px; height: 50px; display: inline-block;
+}
+#back-to-top .back-top:hover {
+	background: url("../images/news/backtop_icon.png") no-repeat -101px -24px;
+}
+.breadcrumbs a {
+	color: rgb(148, 148, 148);
+}
+.breadcrumbs .separator {
+	padding: 0px 5px; width: 12px; color: rgb(148, 148, 148); display: inline-block;
+}
+.breadcrumbs a:hover {
+	color: rgb(10, 66, 125); text-decoration: underline;
+}
+.breadcrumbs a:last-child {
+	color: rgb(10, 66, 125); font-weight: bold;
+}
+.lxb-container-15-2#LXB_CONTAINER {
+	display: none;
+}
+.lxb-container {
+	display: none;
+}
+#bd-tongji a img {
+	display: none;
+}
+.img-tit-bg {
+	background: rgb(0, 0, 0); left: 0px; width: 100%; bottom: 0px; filter: alpha(opacity=50); position: absolute; opacity: 0.5;
+}
+.youjia_promotion {
+	left: 50%; top: 50%; display: none; position: fixed; z-index: 999; _position: absolute;
+}
+.youjia_promotion .yj-close-btn-1 {
+	background: url("../images/close-btn.png") no-repeat; left: 50%; top: 100px; width: 25px; height: 25px; margin-left: 550px; display: inline-block; position: fixed; cursor: pointer;
+}
+.youjia_promotion_small {
+	left: 0px; bottom: 0px; display: none; position: fixed; z-index: 999; _position: absolute;
+}
+.youjia_promotion_small_con {
+	position: relative;
+}
+.youjia_promotion_small_con .yj-close-btn-2 {
+	top: 0px; width: 1em; height: 1em; text-align: center; right: 0px; color: rgb(129, 142, 166); line-height: 0.85em; font-size: 12px; display: inline-block; position: absolute; cursor: pointer;
+}
+.youjia_promotion_small_con .yj-close-btn-2:hover {
+	color: rgb(255, 255, 255); background-color: rgb(211, 74, 52);
+}

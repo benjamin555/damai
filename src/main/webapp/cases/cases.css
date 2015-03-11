@@ -1,0 +1,21 @@
+.success-banner {
+    background: url("../images/cases/successcases_banner.png") no-repeat center #0a4380;
+    height: 156px;
+}
+.crumbs-nav {
+    width: 1100px;
+    margin: 15px auto;
+    line-height: 50px;
+    text-align: right;
+    border-bottom: 1px solid #D5D5D5;
+}
+#success {
+    width: 1100px;
+    margin-top: 15px;
+}
+#success .case-list {
+    margin-bottom: 29px;
+}
+#success .case-list-extra {
+    margin-right: 0;
+}
